@@ -9,6 +9,7 @@ export class ActorFormComponent {
   skills = ['Method Acting', 'Singing', 'Dancing', 'Swordfighting'];
   model = new Actor(18, 'Tom Cruise', this.skills[3], 'CW Productions');
   submitted = false;
+  color = '';
   onSubmit() {
     this.submitted = true;
   }
